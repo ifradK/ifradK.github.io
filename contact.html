@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Contact - Ifrad Khan</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-container">
+            <div class="contact-grid">
+                <!-- Professional Networks -->
+                <div class="contact-card">
+                    <h2>Professional Networks</h2>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/ifrad-khan/" class="contact-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/ifradK" class="contact-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coding Profiles -->
+                <div class="contact-card">
+                    <h2>Coding Profiles</h2>
+                    <div class="contact-links">
+                        <a href="https://leetcode.com/u/Ifrad_k/" class="contact-link leetcode" target="_blank">
+                            <i class="fas fa-code"></i>
+                            <span>LeetCode</span>
+                        </a>
+                        <a href="https://codeforces.com/profile/ifrad.k" class="contact-link codeforces" target="_blank">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Codeforces</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Direct Contact -->
+                <div class="contact-card">
+                    <h2>Direct Contact</h2>
+                    <div class="contact-links">
+                        <a href="mailto:ifrad2000@gmail.com" class="contact-link email">
+                            <i class="fas fa-envelope"></i>
+                            <span>ifrad2000@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-card contact-form-card">
+                    <h2>Send Me a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Theme Toggle Button -->
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2023 Ifrad Khan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
